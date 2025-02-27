@@ -26,8 +26,25 @@
                 <Image Source="dotnet_bot.png" WidthRequest="100" HeightRequest="100"/>
             </Border>
             <Label Text="John Doe" FontSize="20" FontAttributes="Bold"
+                   TextColor="White"
                    AbsoluteLayout.LayoutBounds="0.5, 0.7, -1, -1"
                    AbsoluteLayout.LayoutFlags="PositionProportional"/>
         </AbsoluteLayout>
+
+        <!-- Stats Section (FlexLayout) -->
+        <FlexLayout Direction="Row" JustifyContent="SpaceBetween">
+            <StackLayout>
+                <Label Text="150" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Followers" FontSize="14"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="200" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Following" FontSize="14"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="50" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="Posts" FontSize="14"/>
+            </StackLayout>
+        </FlexLayout>
     </StackLayout>
 </ContentPage>
