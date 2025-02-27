@@ -46,5 +46,20 @@
                 <Label Text="Posts" FontSize="14"/>
             </StackLayout>
         </FlexLayout>
+
+        <!-- Post List (ScrollView + VerticalStackLayout) -->
+        <ScrollView>
+            <VerticalStackLayout Spacing="10">
+                <Border Padding="10" BackgroundColor="LightBlue">
+                    <Label Text="Post 1: Exploring .NET MAUI!" FontSize="16"/>
+                </Border>
+                <Border Padding="10" BackgroundColor="LightPink">
+                    <Label Text="Post 2: Learning Grid and FlexLayout" FontSize="16"/>
+                </Border>
+                <Border Padding="10" BackgroundColor="LightGreen">
+                    <Label Text="Post 3: Building Responsive UI" FontSize="16"/>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
     </StackLayout>
 </ContentPage>
